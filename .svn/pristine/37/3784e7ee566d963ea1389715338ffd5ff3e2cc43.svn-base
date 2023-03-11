@@ -1,0 +1,30 @@
+{
+  "name": "paperclip-code-editor",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.2.2",
+    "@radix-ui/react-popover": "^0.0.20",
+    "@radix-ui/react-tabs": "^0.0.16",
+    "html-2-jsx": "^0.5.1-dev",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-splitter-layout": "^4.0.0",
+    "react-srcdoc-iframe": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-splitter-layout": "^3.0.2",
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "autoprefixer": "^10.3.2",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4"
+  }
+}
